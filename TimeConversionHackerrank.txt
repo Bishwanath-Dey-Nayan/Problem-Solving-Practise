@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+#include<iostream>
+
+
+
+using namespace std;
+int main()
+{
+   int h,m,s;
+   char n[2];
+   cin>>h>>m>>s;
+   cin>>n;
+
+   if(n=='PM' && h!=12)
+   {
+       h=h+12;
+   }
+
+   cout<<h<<endl<<m<<endl<<s<<endl<<n;
+
+}
